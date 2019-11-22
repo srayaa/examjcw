@@ -1,17 +1,10 @@
 
 
-# [鹤壁市纪委监委内部学习平台](http://www.examxx.net)
-# 鹤壁市纪委监委内部学习平台已发布第二版并正式更名为Examstack，详情请进入[官网](http://www.examstack.com)查看
+# 鹤壁市纪委监委内部学习平台
+# 来源[exam++](http://www.examstack.com)修改部分功能
 
-- [鹤壁市纪委监委内部学习平台](http://www.examxx.net)是国内首款基于`JAVA`与`MYSQL`开发的网络考试系统。它可以稳定、顺畅的运行在`Windows`与`Linux`平台上。您可以通过它快捷方便的创建试题和题库，发布试卷，组织考试，系统自动批改。高度的可配置性和灵活性使得它可以被应用于很多领域。
 
-- 软件采用`GPL`协议，完全开放且免费，并且有固定的开发团队提供技术支持
-[官方网站](http://www.examxx.net)
-![](http://static.oschina.net/uploads/space/2015/0129/193211_RwoW_135389.png)
-
-![](http://static.oschina.net/uploads/space/2015/0112/104147_knZd_135389.jpg)
-
-##[鹤壁市纪委监委内部学习平台](http://www.examxx.net) 有什么功能
+##功能
 | 功能模块      |    子功能 | 详细介绍  |
 | :-------- | :--------| :-- |
 |用户功能模块|用户注册登陆|用户可以通过用户名邮箱注册网站，并且通过注册的用户登陆网站。|
@@ -28,23 +21,8 @@
 ||用户管理|教师或管理员可以管理目前网站的注册用户。|
 
 ##使用
-- [鹤壁市纪委监委内部学习平台](http://www.examxx.net)采用了mysql数据库，因此，请安装mysql（5.0以上版本），安装完毕后，请创建一个名为examxx的数据库，并将doc目录下的数据库文件`examxx.sql`导入到数据库。
+- mysql（5.0以上版本），创建examxx数据库，examxx.sql导入到数据库。
 - 请将examxx.war拷贝到tomcat目录下的webapps目录中。
 - tomcat启动后，war包自动部署到tomcat，打开webapps\examxx\WEB-INF\spring\root-context.xml修改数据库配置，填写你自己的数据库信息，如下：
+用户名admin和密码123456即可登录系统。
 
-![](http://git.oschina.net/ocelot/examxx/raw/master/doc/111.png)
-- 启动tomcat服务器，输入http://localhost:8080/examxx 进入到鹤壁市纪委监委内部学习平台主页面。如果能正常打开，则进度到第下一步，否则，请检查服务器配置或数据库配置是否正确。
-
-![](http://git.oschina.net/ocelot/examxx/raw/master/doc/222.jpg)
-- 点击右上角登录按钮，输入用户名admin和密码123456即可登录系统。
-
-##问题
-- 如果有任何问题或者建议请发email：<link4hy@126.com>,<mars-fox@163.com>。 建议与问题一经采纳即会将您的贡献大名列入[鹤壁市纪委监委内部学习平台](http://www.examxx.net)的感谢名单中。
-- 或加入QQ群和我们一起讨论吧！
-[![](http://pub.idqqimg.com/wpa/images/group.png)](http://shang.qq.com/wpa/qunwpa?idkey=b365bd36df1bd42ffcf8ab7b91fb93f21841548bcda6ec721de276bae9f72e35)
-
-##修改记录
-- 2015-03-07 试题增加标签功能
-- 2015-02-03 修改题库分页按钮无效的bug
-- 2015-01-24 完善题库导入功能
-- 2015-01-11 试题评论功能
